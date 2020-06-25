@@ -19,3 +19,9 @@ B2FIND Metadata Schema
    :maxdepth: 1
 
    field_identifier
+   field_creator
+   field_title
+   field_publisher
+   field_publicationyear
+   field_subject
+   
