@@ -8,7 +8,7 @@ The institution or person or instrument responsible for collecting, managing, di
 
 .. note::
 
-   OpenAIRE uses this property to allow unique and persistent identification of the funder who has funded wholly or partly the dataset described. This does not exclude also using this property for additional contributors as defined by DataCite Metadata Schema |datacitever|.
+   OpenAIRE uses this property to allow unique and persistent identification of the funder who has funded wholly or partly the dataset described. This does not exclude also using this property for additional contributors as defined by DataCite Metadata Schema.
 
    The property and sub-properties are only *mandatory when applicable (MA)* for describing funding information. Further use is *optional (O)*.
 
@@ -71,54 +71,7 @@ The personal name format may be: family, given. Non-roman names should be transl
 
 .. _d:contributor_nameidentifier:
 
-7.3 nameIdentifier (MA/O)
-~~~~~~~~~~~~~~~~~~~~~~~~~
-Uniquely identifies an individual or legal entity, according to various schemes (occurrences: 0-1).
-
-**Allowed values, examples, other constraints**
-
-The format is dependent upon scheme.
-
-.. note::
-
-   Applicable only when contributorType is â€œFunderâ€:
-
-   .. include:: ../common/projectid.rst
-
-.. _d:contributor_nameidentifierscheme:
-
-7.3.1 nameIdentifierScheme (MA/O)
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The name of the name identifier scheme (occurrences: 1).
-
-**Allowed values, examples, other constraints**
-
-If :ref:`d:contributor_nameidentifier` is used, :ref:`d:contributor_nameidentifierscheme` is mandatory.
-
-Examples:`ORCID <http://orcid.org/>`_, `ISNI <http://www.isni.org/>`_, `FundRef <http://www.crossref.org/fundref/>`_.
-
-.. note::
-
-   Applicable only when contributorType is â€œFunderâ€:
-
-   *Controlled List Values:*
-
-   * info
-
-.. _d:contributor_schemeuri:
-
-7.3.2 schemeURI (O)
-~~~~~~~~~~~~~~~~~~~
-The URI of the name identifier scheme (occurrences: 0-1).
-
-**Allowed values, examples, other constraints**
-
-Examples:
-
-* http://www.isni.org
-* http://orcid.org
-* http://www.crossref.org/fundref/
-
+7
 .. _d:contributor_affiliation:
 
 7.4 affiliation (O)
@@ -129,7 +82,3 @@ The organizational or institutional affiliation of the contributor (occurrences:
 
 Free text.
 
-Example
-~~~~~~~
-
-.. include:: examples/funding.rst
