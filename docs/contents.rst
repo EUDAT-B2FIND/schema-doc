@@ -9,6 +9,7 @@ B2FIND Metadata Schema
 
 .. toctree::
    :maxdepth: 1
+   :caption: Content
 
    introduction
 
