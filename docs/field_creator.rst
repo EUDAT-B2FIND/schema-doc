@@ -1,8 +1,8 @@
 .. _d:creator:
 
-2. Creator (R)
+Creator (R)
 --------------
-The main researchers involved working on the data, or the authors of the publication in priority order. May be a corporate/institutional or personal name (occurrences: 0-n).
+The main researchers involved working on the data, or the authors of the publication in priority order. May be a corporate/institutional or personal name (occurrence: 0-n).
 
 **Allowed values, examples, other constraints**
 

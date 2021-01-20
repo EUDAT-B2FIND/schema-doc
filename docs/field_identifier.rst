@@ -1,7 +1,7 @@
 .. _d:identifier:
 
-1. Identifier (M)
------------------
+Identifier (M)
+--------------
 A unique string that identifies a resource, ideally persistent (occurrences: 1). You can either provide a:
 
 * DOI: A persistent citable identifier that uniquely identifies a resource, registered as DOI.
@@ -29,12 +29,11 @@ Example
 .. code-block:: xml
    :linenos:
 
+ <identifiers>
 	<identifier identiferType="DOI">
 	 10.1594/WDCC/CCSRNIES_SRES_B2
 	</identifier>
-
-	OR
-
 	<identifier identifierType="ARK">
 	 2013A&amp;A...558A.149B
 	</identifier>
+ </identifiers>

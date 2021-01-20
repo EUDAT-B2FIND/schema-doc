@@ -1,6 +1,6 @@
 .. _d:title:
 
-3. Title (M)
+Title (M)
 ------------
 A name or title by which a resource is known (occurrences: 1-n).
 
@@ -15,7 +15,6 @@ Example
 
    <titles>
     <title>
-     National Institute for Environmental Studies and Center
-     for Climate System Research Japan
+    Bees in Kakamega Forest, Western Kenya
     </title>
    </titles>
