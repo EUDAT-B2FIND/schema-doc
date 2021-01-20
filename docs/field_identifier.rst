@@ -29,11 +29,11 @@ Example
 .. code-block:: xml
    :linenos:
 
- <identifiers>
-	<identifier identiferType="DOI">
-	 10.1594/WDCC/CCSRNIES_SRES_B2
-	</identifier>
-	<identifier identifierType="ARK">
-	 2013A&amp;A...558A.149B
-	</identifier>
- </identifiers>
+   <identifiers>
+  	<identifier identiferType="DOI">
+  	 10.1594/WDCC/CCSRNIES_SRES_B2
+  	</identifier>
+  	<identifier identifierType="ARK">
+  	 2013A&amp;A...558A.149B
+  	</identifier>
+   </identifiers>

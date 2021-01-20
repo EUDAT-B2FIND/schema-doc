@@ -18,10 +18,16 @@ B2FIND Metadata Schema
 .. toctree::
    :maxdepth: 1
 
+   field_community
+   field_keywords
    field_identifier
+   field_relatedidentifier
    field_creator
+   field_contributor
    field_title
    field_publisher
    field_publicationyear
    field_subject
+   field_description
+   
    
