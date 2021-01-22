@@ -1,3 +1,3 @@
 GitHub Pages of [EUDAT-B2FIND/schema-doc](https://github.com/EUDAT-B2FIND/schema-doc.git)
 ===
-Sphinx html documentation of [bee368be](https://github.com/EUDAT-B2FIND/schema-doc/tree/bee368beb77fc75aa5823dbb8c28885c4375bd1a)
+Sphinx html documentation of [07fd02f0](https://github.com/EUDAT-B2FIND/schema-doc/tree/07fd02f0110d11e060e741670e94e75f48fc9c00)
