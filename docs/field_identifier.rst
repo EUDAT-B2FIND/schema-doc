@@ -1,43 +1,39 @@
 .. _d:identifier:
 
-1. Identifier (M)
------------------
-The Identifier is a unique string that identifies a resource (occurrences: 1).
+Identifier (M)
+--------------
+A unique string that identifies a resource, ideally persistent (occurrence: 1). You can either provide a:
+
+* DOI: A persistent citable identifier that uniquely identifies a resource, registered as DOI.
+* PID: A persistent identifier that uniquely identifies a resource, registered at a handle server.
+* URI: An identifier that uniquely identifies a resource. It may link to the data itself or a landing page that curates the data.
+
+At least one identifier is mandatory.
 
 **Allowed values, examples, other constraints**
 
-Format should be “10.1234/foo”
-
-.. _d:identifiertype:
-
-1.1 identifierType (M)
-~~~~~~~~~~~~~~~~~~~~~~
-The type of the Identifier (occurrences: 1).
-
-**Allowed values, examples, other constraints**
-
-*Controlled list values (DataCite)*
-
-* DOI
-
-*Controlled list values (OpenAIRE)*
-
-* ARK
-* DOI
-* Handle
-* PURL
-* URN
-* URL
+*Controlled list values* 
+    * ARK
+    * DOI
+    * Handle
+    * PURL
+    * URN
+    * URL
+    * other, community-specific identifier type
 
 .. note::
-   Unlike DataCite, OpenAIRE allows for DOIs and other types of identifiers.
+   Unlike DataCite, B2FIND allows for DOIs and other types of identifiers.
 
 Example
 ~~~~~~~
 .. code-block:: xml
    :linenos:
 
-   <identifier identifierType="DOI">
-    10.1594/WDCC/CCSRNIES_SRES_B2
-   </identifier>
-
+   <identifiers>
+  	<identifier identiferType="DOI">
+  	 10.1594/WDCC/CCSRNIES_SRES_B2
+  	</identifier>
+  	<identifier identifierType="ARK">
+  	 2013A&amp;A...558A.149B
+  	</identifier>
+   </identifiers>

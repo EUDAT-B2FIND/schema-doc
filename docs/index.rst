@@ -9,7 +9,7 @@ B2FIND Metadata Schema
 
 .. toctree::
    :maxdepth: 1
-   :caption: Contents:
+   :caption: Content
 
    introduction
 
@@ -18,4 +18,18 @@ B2FIND Metadata Schema
 .. toctree::
    :maxdepth: 1
 
+   field_community
+   field_title
+   field_description
+   field_keywords
    field_identifier
+   field_relatedidentifier
+   field_metadataaccess
+   field_creator
+   field_publisher
+   field_contributor
+   field_instrument
+   field_publicationyear
+   
+   
+   
