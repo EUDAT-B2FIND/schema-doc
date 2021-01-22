@@ -23,7 +23,7 @@ copyright = '2020, Claudia Martens, Anna-Lena Flügel'
 author = 'Claudia Martens, Anna-Lena Flügel'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0'
+release = '2.0'
 
 
 # -- General configuration ---------------------------------------------------
