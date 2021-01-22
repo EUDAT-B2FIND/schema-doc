@@ -29,7 +29,6 @@ B2FIND Metadata Schema
    field_title
    field_publisher
    field_publicationyear
-   field_subject
    field_description
    
    
