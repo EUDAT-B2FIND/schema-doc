@@ -1,8 +1,8 @@
 .. _d:publisher:
 
-4. Publisher (M)
-----------------
-The name of the entity that holds, archives, publishes, prints, distributes, releases, issues, or produces the resource or is responsible for making the resource available.(occurrences: 1).
+Publisher (M)
+-------------
+The name of the entity that holds, archives, publishes prints, distributes, releases, issues, or produces the resource. This property will be used to formulate the citation, so consider the prominence of the role (occurrence: 1-n)
 
 **Allowed values, examples, other constraints**
 

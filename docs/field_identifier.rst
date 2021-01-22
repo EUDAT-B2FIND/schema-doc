@@ -2,7 +2,7 @@
 
 Identifier (M)
 --------------
-A unique string that identifies a resource, ideally persistent (occurrences: 1). You can either provide a:
+A unique string that identifies a resource, ideally persistent (occurrence: 1). You can either provide a:
 
 * DOI: A persistent citable identifier that uniquely identifies a resource, registered as DOI.
 * PID: A persistent identifier that uniquely identifies a resource, registered at a handle server.

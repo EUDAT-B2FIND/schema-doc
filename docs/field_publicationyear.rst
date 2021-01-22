@@ -1,6 +1,6 @@
 .. _d:publicationyear:
 
-5. PublicationYear (M)
+PublicationYear (M)
 ----------------------
 The Year when the data is made publicly available. If an embargo period has been in effect, use the date when the embargo period ends. (occurrences: 1)
 

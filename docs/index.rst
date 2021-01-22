@@ -22,8 +22,10 @@ B2FIND Metadata Schema
    field_keywords
    field_identifier
    field_relatedidentifier
+   field_metadataaccess
    field_creator
    field_contributor
+   field_instrument
    field_title
    field_publisher
    field_publicationyear
