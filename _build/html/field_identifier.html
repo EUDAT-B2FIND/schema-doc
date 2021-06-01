@@ -1,0 +1,166 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Identifier (M) &#8212; B2FIND Metadata Schema 2.0 documentation</title>
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" href="_static/alabaster.css" type="text/css" />
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Related Identifier (O)" href="field_relatedidentifier.html" />
+    <link rel="prev" title="Keywords (R)" href="field_keywords.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="d-identifier">
+<span id="identifier-m"></span><h1>Identifier (M)<a class="headerlink" href="#d-identifier" title="Permalink to this headline">¶</a></h1>
+<p>A unique string that identifies a resource, ideally persistent (occurrence: 1). You can either provide a:</p>
+<ul class="simple">
+<li><p>DOI: A persistent citable identifier that uniquely identifies a resource, registered as DOI.</p></li>
+<li><p>PID: A persistent identifier that uniquely identifies a resource, registered at a handle server.</p></li>
+<li><p>URI: An identifier that uniquely identifies a resource. It may link to the data itself or a landing page that curates the data.</p></li>
+</ul>
+<p>At least one identifier is mandatory.</p>
+<p><strong>Allowed values, examples, other constraints</strong></p>
+<dl class="simple">
+<dt><em>Controlled list values</em></dt><dd><ul class="simple">
+<li><p>ARK</p></li>
+<li><p>DOI</p></li>
+<li><p>Handle</p></li>
+<li><p>PURL</p></li>
+<li><p>URN</p></li>
+<li><p>URL</p></li>
+<li><p>other, community-specific identifier type</p></li>
+</ul>
+</dd>
+</dl>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Unlike DataCite, B2FIND allows for DOIs and other types of identifiers.</p>
+</div>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-xml notranslate"><table class="highlighttable"><tr><td class="linenos"><div class="linenodiv"><pre>1
+2
+3
+4
+5
+6
+7
+8</pre></div></td><td class="code"><div class="highlight"><pre><span></span><span class="nt">&lt;identifiers&gt;</span>
+     <span class="nt">&lt;identifier</span> <span class="na">identiferType=</span><span class="s">&quot;DOI&quot;</span><span class="nt">&gt;</span>
+      10.1594/WDCC/CCSRNIES_SRES_B2
+     <span class="nt">&lt;/identifier&gt;</span>
+     <span class="nt">&lt;identifier</span> <span class="na">identifierType=</span><span class="s">&quot;ARK&quot;</span><span class="nt">&gt;</span>
+      2013A<span class="ni">&amp;amp;</span>A...558A.149B
+     <span class="nt">&lt;/identifier&gt;</span>
+<span class="nt">&lt;/identifiers&gt;</span>
+</pre></div>
+</td></tr></table></div>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">B2FIND Metadata Schema</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Content</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="introduction.html">Introduction</a></li>
+</ul>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="field_community.html">Community (M)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="field_title.html">Title (M)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="field_description.html">Description (R)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="field_keywords.html">Keywords (R)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Identifier (M)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="field_relatedidentifier.html">Related Identifier (O)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="field_metadataaccess.html">Metadata Access (R)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="field_creator.html">Creator (R)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="field_publisher.html">Publisher (M)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="field_contributor.html">Contributor (O)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="field_instrument.html">Instrument (O)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="field_publicationyear.html">PublicationYear (M)</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="field_keywords.html" title="previous chapter">Keywords (R)</a></li>
+      <li>Next: <a href="field_relatedidentifier.html" title="next chapter">Related Identifier (O)</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Claudia Martens, Anna-Lena Flügel.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 3.4.1</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="_sources/field_identifier.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
