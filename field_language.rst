@@ -1,7 +1,7 @@
 .. _d:language:
 
-9. Language (R)
----------------
+Language (R)
+------------
 The language(s) of the resource (occurrences: 0-n).
 
 **Allowed values, examples, other constraints**

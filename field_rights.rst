@@ -1,7 +1,7 @@
 .. _d:rights:
 
-16. Rights (R)
---------------
+Rights (R)
+----------
 Any rights information for this resource (occurrences: 0-n).
 
 **Allowed values, examples, other constraints**
