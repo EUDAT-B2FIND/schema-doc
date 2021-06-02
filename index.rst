@@ -30,6 +30,8 @@ B2FIND Metadata Schema
    field_contributor
    field_instrument
    field_publicationyear
-   
-   
+   field_language
+   field_contact
+   field_openaccess
+   field_rights
    
