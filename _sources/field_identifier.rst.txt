@@ -2,11 +2,11 @@
 
 Identifier (M)
 --------------
-A unique string that identifies a resource, ideally persistent (occurrence: 1). You can either provide a:
+A unique string that identifies a resource, ideally persistent (occurrence: 1-n). You can either provide a:
 
 * DOI: A persistent citable identifier that uniquely identifies a resource, registered as DOI.
 * PID: A persistent identifier that uniquely identifies a resource, registered at a handle server.
-* URI: An identifier that uniquely identifies a resource. It may link to the data itself or a landing page that curates the data.
+* Source: An identifier that uniquely identifies a resource. It may link to the data itself or a landing page that curates the data.
 
 At least one identifier is mandatory.
 
