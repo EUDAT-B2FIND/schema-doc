@@ -8,7 +8,7 @@ B2FIND is first and foremost an interdisciplinary seach portal for research data
 The metadata schema described here refers to this ingestion process: metadata elements, occurences and obligations define how and which metadata elements are integrated into B2FIND. Be aware, the metadata displayed in B2FIND is also harvested by OpenAire and potentially other metadata aggregators.
 
 .. note::
-   B2FIND aims to integrate also repositories that do not use generic metadata schemas or standardised transfer protocols. In that case, if you would like to make your (meta)data searchable and findabel in B2FIND please contact our team at https://eudat.eu/contact-support-request.
+   B2FIND aims to integrate also repositories that do not use generic metadata schemas or standardised transfer protocols. In that case, if you would like to make your (meta)data searchable and findabel in B2FIND please contact our team at `here <https://eudat.eu/contact-support-request>`__.
 
 
 Legal requirements
