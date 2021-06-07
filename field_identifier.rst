@@ -2,27 +2,13 @@
 
 Identifier (M)
 --------------
-A unique string that identifies a resource, ideally persistent (occurrence: 1-n). You can either provide a:
+One or more unique strings that identifiy a single resource, ideally persistent.
 
-* DOI: A persistent citable identifier that uniquely identifies a resource, registered as DOI.
-* PID: A persistent identifier that uniquely identifies a resource, registered at a handle server.
-* Source: An identifier that uniquely identifies a resource. It may link to the data itself or a landing page that curates the data.
-
-At least one identifier is mandatory.
-
-**Allowed values, examples, other constraints**
-
-*Controlled list values* 
-    * ARK
-    * DOI
-    * Handle
-    * PURL
-    * URN
-    * URL
-    * other, community-specific identifier type
 
 .. note::
-   Unlike DataCite, B2FIND allows for DOIs and other types of identifiers.
+   The B2FIND GUI ranks identifiers according to their persistency. DOIs will be displayed as "DOI", other persistent identifiers (e.g. Handles) will be displayed as "PID". Any other identifier will be displayed as "Source".
+   For usability purposes all identifier are displayed as resolvable links.
+
 
 Example
 ~~~~~~~
