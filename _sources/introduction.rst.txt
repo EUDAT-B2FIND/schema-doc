@@ -14,9 +14,9 @@ The metadata schema described here refers to this ingestion process: metadata el
 Legal requirements
 ^^^^^^^^^^^^^^^^^^
 If you want to publish your metadata in the EUDAT service B2FIND, you must consent to the following:
-- The data provider must agree with the licensing principles of EUDAT-B2FIND (see the `Terms of Use for EUDAT CDI <https://www.eudat.eu/eudat-cdi-aup>`__) and DKRZ (see the `Legal Notice <http://b2find.eudat.eu/legal>`__).
-- In particular, the provider must consent to the provided metadata being made publicly available and openly accessible under `CC-BY International v.4.0 <https://creativecommons.org/licenses/by/4.0/> or subsequent without any restrictions on reuse in original and derivative forms.
-- The data provider agrees to the metadata being made available for free in B2FIND and also for it to be harvested by and re-distributed to other metadata aggregators. No confidential metadata should be provided (although the described research data sets themselves may have access limitations). Copyright-protected metadata can only be published if there is a licence agreement between the data provider and EUDAT that meets the B2FIND requirements.
+* The data provider must agree with the licensing principles of EUDAT-B2FIND (see the `Terms of Use for EUDAT CDI <https://www.eudat.eu/eudat-cdi-aup>`__) and DKRZ (see the `Legal Notice <http://b2find.eudat.eu/legal>`__).
+* In particular, the provider must consent to the provided metadata being made publicly available and openly accessible under `CC-BY International v.4.0 <https://creativecommons.org/licenses/by/4.0/> or subsequent without any restrictions on reuse in original and derivative forms.
+* The data provider agrees to the metadata being made available for free in B2FIND and also for it to be harvested by and re-distributed to other metadata aggregators. No confidential metadata should be provided (although the described research data sets themselves may have access limitations). Copyright-protected metadata can only be published if there is a licence agreement between the data provider and EUDAT that meets the B2FIND requirements.
 
 .. note::
    The open access licence referred to above (CC-BY 4.0 or subsequent) only applies to the metadata records published and visible in the B2FIND portal, **not** to the underlying data collections referred to and described by the B2FIND datasets.
