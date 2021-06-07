@@ -180,29 +180,11 @@
             
   <div class="section" id="d-identifier">
 <span id="identifier-m"></span><h1>Identifier (M)<a class="headerlink" href="#d-identifier" title="Permalink to this headline">¶</a></h1>
-<p>A unique string that identifies a resource, ideally persistent (occurrence: 1-n). You can either provide a:</p>
-<ul class="simple">
-<li><p>DOI: A persistent citable identifier that uniquely identifies a resource, registered as DOI.</p></li>
-<li><p>PID: A persistent identifier that uniquely identifies a resource, registered at a handle server.</p></li>
-<li><p>Source: An identifier that uniquely identifies a resource. It may link to the data itself or a landing page that curates the data.</p></li>
-</ul>
-<p>At least one identifier is mandatory.</p>
-<p><strong>Allowed values, examples, other constraints</strong></p>
-<dl class="simple">
-<dt><em>Controlled list values</em></dt><dd><ul class="simple">
-<li><p>ARK</p></li>
-<li><p>DOI</p></li>
-<li><p>Handle</p></li>
-<li><p>PURL</p></li>
-<li><p>URN</p></li>
-<li><p>URL</p></li>
-<li><p>other, community-specific identifier type</p></li>
-</ul>
-</dd>
-</dl>
+<p>One or more unique strings that identifiy a single resource, ideally persistent.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Unlike DataCite, B2FIND allows for DOIs and other types of identifiers.</p>
+<p>The B2FIND GUI ranks identifiers according to their persistency. DOIs will be displayed as “DOI”, other persistent identifiers (e.g. Handles) will be displayed as “PID”. Any other identifier will be displayed as “Source”.
+For usability purposes all identifier are displayed as resolvable links.</p>
 </div>
 <div class="section" id="example">
 <h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
