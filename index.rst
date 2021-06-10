@@ -36,3 +36,8 @@ B2FIND Metadata Schema
    field_rights
    field_resourcetype
    field_format
+   field_size
+   field_version
+   field_discipline
+   field_spatialcoverage
+   field_temporalcoverage

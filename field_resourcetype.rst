@@ -1,8 +1,8 @@
 .. _d:resourcetype:
 
 ResourceType (O)
-----------------------
-The type(s) of the resource. Free text values allowed. (occurrence: 0-n).
+----------------
+The type(s) of the resource (occurrence: 0-n). Free text values allowed.
 
 **Examples**
 
