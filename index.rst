@@ -34,3 +34,5 @@ B2FIND Metadata Schema
    field_contact
    field_openaccess
    field_rights
+   field_resourcetype
+   field_format
