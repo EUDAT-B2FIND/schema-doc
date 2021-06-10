@@ -5,13 +5,13 @@ Aim
 ^^^
 B2FIND is first and foremost an interdisciplinary seach portal for research data. Our aim is to make (meta)data records from different research areas with divergent metadata standards and formats searchable and findable in one catalogue by ingesting metadata records from a huge variety of Data Providers, Research Infrastructures or Scientific Communities.
 
-The metadata schema described here refers to this ingestion process: metadata elements, occurences and obligations define how and which metadata elements are integrated into B2FIND. Be aware, the metadata displayed in B2FIND is also harvested by OpenAire and potentially other metadata aggregators.
+The metadata schema described here refers to this ingestion process: metadata elements, occurences and obligations define how and which metadata elements are integrated into B2FIND. Be aware that the metadata displayed in B2FIND is also harvested by OpenAire and potentially other metadata aggregators.
 
 .. note::
-   B2FIND aims to integrate also repositories that do not use generic metadata schemas or standardised transfer protocols. In that case, if you would like to make your (meta)data searchable and findabel in B2FIND please contact our team at `here <https://eudat.eu/contact-support-request>`__.
+   B2FIND aims to integrate also repositories that do not use generic metadata schemas or standardised transfer protocols. In that case, if you would like to make your (meta)data searchable and findable in B2FIND please contact our team `here <https://eudat.eu/contact-support-request>`__.
 
 
-Legal requirements
+Legal Requirements
 ^^^^^^^^^^^^^^^^^^
 If you want to publish your metadata in the EUDAT service B2FIND, you must consent to the following:
 
@@ -23,6 +23,6 @@ If you want to publish your metadata in the EUDAT service B2FIND, you must conse
    The open access licence referred to above (CC-BY 4.0 or subsequent) only applies to the metadata records published and visible in the B2FIND portal, **not** to the underlying data collections referred to and described by the B2FIND datasets.
 
 
-Citation disclaimer
+Citation Disclaimer
 ^^^^^^^^^^^^^^^^^^^
-Even if the metadata in B2FIND is correct to the best of our knowledge and belief please keep in mind that any Citation should be created using the original sources.
+Even if the metadata in B2FIND is correct to the best of our knowledge and belief please keep in mind that any citation should be created using the original sources.
