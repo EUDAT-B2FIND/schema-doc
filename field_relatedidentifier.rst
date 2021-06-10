@@ -1,7 +1,7 @@
 .. _d:relatedidentifier:
 
-Related Identifier (O)
-----------------------
+RelatedIdentifier (O)
+---------------------
 Identifiers of related resources (occurrence: 0-n).
 
 **Allowed values, examples, other constraints**
