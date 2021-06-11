@@ -13,6 +13,8 @@ Example
 .. code-block:: xml
    :linenos:
 
+  <relatedIdentifiers>
     <relatedIdentifier>
      https://doi.org/10.1029/96JB03945
     </relatedIdentifier>
+  </relatedIdentifiers>
