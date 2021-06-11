@@ -13,8 +13,7 @@ Example
 .. code-block:: xml
    :linenos:
 
-  <relatedIdentifiers>
-    <relatedIdentifier>
-     https://doi.org/10.1029/96JB03945
-    </relatedIdentifier>
-  </relatedIdentifiers>
+   <relatedIdentifiers>
+	<relatedIdentifier>https://doi.org/10.2314/GBV:1028376081</relatedIdentifier>
+	<relatedIdentifier>https://www.cliccs.uni-hamburg.de/results/hamburg-climate-futures-outlook.html</relatedIdentifier>
+   </relatedIdentifiers>
