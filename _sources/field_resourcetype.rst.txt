@@ -17,4 +17,4 @@ Example
     <resourceType>
      dataset
     </resourceType>
-  <resourceTypes>
+  </resourceTypes>
