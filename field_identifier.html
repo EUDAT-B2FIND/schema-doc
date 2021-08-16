@@ -187,22 +187,14 @@
             
   <div class="section" id="d-identifier">
 <span id="identifier-m"></span><h1>Identifier (M)<a class="headerlink" href="#d-identifier" title="Permalink to this headline">¶</a></h1>
-<p>One or more unique strings that identifiy a single resource, ideally persistent.</p>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>The B2FIND GUI ranks identifiers according to their persistency. DOIs will be displayed as “DOI”, other persistent identifiers (e.g. Handles) will be displayed as “PID”. Any other identifier will be displayed as “Source”.
-For usability purposes all identifier are displayed as resolvable links.</p>
-</div>
+<p>One or more unique strings that identifiy a single resource, ideally persistent (occurrences: 1-n). Use attributes for defining DOI, PID, URL or other types.</p>
 <div class="section" id="example">
 <h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
 <div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="nt">&lt;identifiers&gt;</span>
-<span class="linenos">2</span>     <span class="nt">&lt;identifier</span> <span class="na">identiferType=</span><span class="s">&quot;DOI&quot;</span><span class="nt">&gt;</span>
-<span class="linenos">3</span>      10.1594/WDCC/CCSRNIES_SRES_B2
-<span class="linenos">4</span>     <span class="nt">&lt;/identifier&gt;</span>
-<span class="linenos">5</span>     <span class="nt">&lt;identifier</span> <span class="na">identifierType=</span><span class="s">&quot;ARK&quot;</span><span class="nt">&gt;</span>
-<span class="linenos">6</span>      2013A<span class="ni">&amp;amp;</span>A...558A.149B
-<span class="linenos">7</span>     <span class="nt">&lt;/identifier&gt;</span>
-<span class="linenos">8</span><span class="nt">&lt;/identifiers&gt;</span>
+<span class="linenos">2</span>   <span class="nt">&lt;identifier</span> <span class="na">identifierType=</span><span class="s">&quot;DOI&quot;</span><span class="nt">&gt;</span>10.1594/WDCC/CCSRNIES_SRES_B2<span class="nt">&lt;/identifier&gt;</span>
+<span class="linenos">3</span>   <span class="nt">&lt;identifier</span> <span class="na">identifierType=</span><span class="s">&quot;ARK&quot;</span><span class="nt">&gt;</span>2013A<span class="ni">&amp;amp;</span>A...558A.149B<span class="nt">&lt;/identifier&gt;</span>
+<span class="linenos">4</span>   <span class="nt">&lt;identifier</span> <span class="na">identifierType=</span><span class="s">&quot;URL&quot;</span><span class="nt">&gt;</span>https://b2share.eudat.eu/records/bb8964ff899c4711a0e8875b87ab2800<span class="nt">&lt;/identifier&gt;</span>
+<span class="linenos">5</span><span class="nt">&lt;/identifiers&gt;</span>
 </pre></div>
 </div>
 </div>
