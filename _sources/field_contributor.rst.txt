@@ -14,10 +14,13 @@ Example
    :linenos:
 
    <contributors>
-  	<contributor>
-  	 Park, James
-  	</contributor>
-  	<contributor>
-  	 CINES
-  	</contributor>
+      <contributor>
+          <contributorName>Miller, Elizabeth</contributorName>
+      </contributor>
+      <contributor>
+          <contributorName>PaNOSC</contributorName>
+      </contributor>
+      <contributor>
+          <contributorName>Deutsches Klimarechenzentrum</contributorName>
+      </contributor>
    </contributors>
