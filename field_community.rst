@@ -14,5 +14,5 @@ Example
    :linenos:
 
    <community>
-	CLARIN
+   	CLARIN
    </community>
