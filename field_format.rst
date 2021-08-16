@@ -13,8 +13,6 @@ Example
 .. code-block:: xml
    :linenos:
 
-  <formats>
-    <format>
-     PDF
-    </format>
-  <formats>
+    <formats>
+      <format>application/xml</format>
+    </formats>
