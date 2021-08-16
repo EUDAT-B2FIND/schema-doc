@@ -15,11 +15,11 @@ Example
    :linenos:
 
    <temporalCoverages>
-      <temporalCoverage>
-          <startDate format="ISO-8601">2004-03-02</startDate>
-          <endDate format="ISO-8601">2005-06-02</endDate>
-      </temporalCoverage>
-      <temporalCoverage>
-          <span>Paleocene</span>
-      </temporalCoverage>
-  </temporalCoverages>
+   	<temporalCoverage>
+      	<startDate format="ISO-8601">2004-03-02</startDate>
+      	<endDate format="ISO-8601">2005-06-02</endDate>
+   	</temporalCoverage>
+   	<temporalCoverage>
+      	<span>Paleocene</span>
+   	</temporalCoverage>
+   </temporalCoverages>
