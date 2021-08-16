@@ -14,13 +14,7 @@ Example
    :linenos:
 
    <contacts>
-   <contact>
-   example@community.org
-   </contact>
-   <contact>
-   https://community.org/contact
-   </contact>
-  	<contact>
-  	 Research Data Office (University of Groningen)
-  	</contact>
+      <contact>example@community.org</contact>
+      <contact>https://community.org/contact</contact>
+  	   <contact>Research Data Office (University of Groningen)</contact>
    </contacts>
