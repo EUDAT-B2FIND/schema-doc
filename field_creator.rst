@@ -17,7 +17,7 @@ Example
    :linenos:
 
    <creators>
-    <creator>
-     <creatorName>Miller, Elizabeth</creatorName> 
-    </creator>
+      <creator>
+         <creatorName>Miller, Elizabeth</creatorName> 
+      </creator>
    </creators>

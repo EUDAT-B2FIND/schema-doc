@@ -15,7 +15,5 @@ Example
    :linenos:
 
    <descriptions>
-	<description>
-	Solid state NMR data for the immobilized catalyst. Primary data files and processed data of the journal article from the Dyballa group.
-	</description>
+   	<description>XML example of all EUDAT Core Metadata Schema v1.0 properties.</description>
    </descriptions>
