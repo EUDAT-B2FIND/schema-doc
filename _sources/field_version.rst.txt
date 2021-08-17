@@ -13,6 +13,4 @@ Example
 .. code-block:: xml
    :linenos:
 
-  <version>
-   PDF
-  </version>
+   <version>1.0</version>

@@ -110,6 +110,7 @@
 <li class="toctree-l1"><a class="reference internal" href="field_format.html">Format (O)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_size.html">Size (O)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_version.html">Version (O)</a></li>
+<li class="toctree-l1"><a class="reference internal" href="field_fundingreference.html">FundingReference (O)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_discipline.html">Discipline (O)</a></li>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Spatial Coverage (O)</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#example">Example</a></li>
@@ -186,21 +187,54 @@
   <div class="section" id="spatial-coverage-o">
 <span id="d-spatialcoverage"></span><h1>Spatial Coverage (O)<a class="headerlink" href="#spatial-coverage-o" title="Permalink to this headline">¶</a></h1>
 <p>Spatial region or named place where the data was gathered or which the data is about (occurrence: 0-n). If geocoordinates are provided, the region will be displayed on the map.
-B2FIND offers the following possibilities to display geographical information:
+EUDAT Core offers the following possibilities to display geographical information:
 geoLocationPlace
 geoLocationPoint
 geoLocationBox
 geoLocationPolygon</p>
 <p><strong>Allowed values, examples, other constraints</strong>
-Recommended, in accordance with DataCite: Use WGS 84 (World Geodetic System) coordinates. Use only decimal numbers for coordinates. Longitudes are -180 to 180(0 is Greenwich, negative numbers are west, positive numbers are east), Latitudes are -90 to 90 (0 is the equator; negative numbers are south, positive numbers north).</p>
+Recommended, in accordance with DataCite: Use WGS 84 (World Geodetic System) coordinates. Use only decimal numbers for coordinates. Longitudes are -180 to 180 (0 is Greenwich, negative numbers are west, positive numbers are east), Latitudes are -90 to 90 (0 is the equator; negative numbers are south, positive numbers north).</p>
 <div class="section" id="example">
 <h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
-<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="nt">&lt;keywords&gt;</span>
-<span class="linenos">2</span>     <span class="nt">&lt;keyword&gt;</span>Chemistry<span class="nt">&lt;/subject&gt;</span>
-<span class="linenos">3</span>     <span class="nt">&lt;keyword&gt;</span>Catalysis<span class="nt">&lt;/subject&gt;</span>
-<span class="linenos">4</span>     <span class="nt">&lt;keyword&gt;</span>Confinement<span class="nt">&lt;/subject&gt;</span>
-<span class="linenos">5</span>     <span class="nt">&lt;keyword&gt;</span>Metathesis<span class="nt">&lt;/subject&gt;</span>
-<span class="linenos">6</span><span class="nt">&lt;/keywords&gt;</span>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos"> 1</span><span class="nt">&lt;spatialCoverages&gt;</span>
+<span class="linenos"> 2</span>   <span class="nt">&lt;spatialCoverage&gt;</span>
+<span class="linenos"> 3</span>       <span class="nt">&lt;geoLocationPlace&gt;</span>Atlantic Ocean<span class="nt">&lt;/geoLocationPlace&gt;</span>
+<span class="linenos"> 4</span>       <span class="nt">&lt;geoLocationPoint&gt;</span>
+<span class="linenos"> 5</span>           <span class="nt">&lt;pointLongitude&gt;</span>-67.302<span class="nt">&lt;/pointLongitude&gt;</span>
+<span class="linenos"> 6</span>           <span class="nt">&lt;pointLatitude&gt;</span>31.233<span class="nt">&lt;/pointLatitude&gt;</span>
+<span class="linenos"> 7</span>       <span class="nt">&lt;/geoLocationPoint&gt;</span>
+<span class="linenos"> 8</span>       <span class="nt">&lt;geoLocationBox&gt;</span>
+<span class="linenos"> 9</span>           <span class="nt">&lt;westBoundLongitude&gt;</span>-71.032<span class="nt">&lt;/westBoundLongitude&gt;</span>
+<span class="linenos">10</span>           <span class="nt">&lt;eastBoundLongitude&gt;</span>-68.211<span class="nt">&lt;/eastBoundLongitude&gt;</span>
+<span class="linenos">11</span>           <span class="nt">&lt;southBoundLatitude&gt;</span>41.090<span class="nt">&lt;/southBoundLatitude&gt;</span>
+<span class="linenos">12</span>           <span class="nt">&lt;northBoundLatitude&gt;</span>42.893<span class="nt">&lt;/northBoundLatitude&gt;</span>
+<span class="linenos">13</span>       <span class="nt">&lt;/geoLocationBox&gt;</span>
+<span class="linenos">14</span>   <span class="nt">&lt;/spatialCoverage&gt;</span>
+<span class="linenos">15</span>   <span class="nt">&lt;spatialCoverage&gt;</span>
+<span class="linenos">16</span>       <span class="nt">&lt;geoLocationPolygon&gt;</span>
+<span class="linenos">17</span>           <span class="nt">&lt;polygonPoint&gt;</span>
+<span class="linenos">18</span>               <span class="nt">&lt;pointLatitude&gt;</span>41.991<span class="nt">&lt;/pointLatitude&gt;</span>
+<span class="linenos">19</span>               <span class="nt">&lt;pointLongitude&gt;</span>-71.032<span class="nt">&lt;/pointLongitude&gt;</span>
+<span class="linenos">20</span>           <span class="nt">&lt;/polygonPoint&gt;</span>
+<span class="linenos">21</span>           <span class="nt">&lt;polygonPoint&gt;</span>
+<span class="linenos">22</span>               <span class="nt">&lt;pointLatitude&gt;</span>42.893<span class="nt">&lt;/pointLatitude&gt;</span>
+<span class="linenos">23</span>               <span class="nt">&lt;pointLongitude&gt;</span>-69.622<span class="nt">&lt;/pointLongitude&gt;</span>
+<span class="linenos">24</span>           <span class="nt">&lt;/polygonPoint&gt;</span>
+<span class="linenos">25</span>           <span class="nt">&lt;polygonPoint&gt;</span>
+<span class="linenos">26</span>               <span class="nt">&lt;pointLatitude&gt;</span>41.991<span class="nt">&lt;/pointLatitude&gt;</span>
+<span class="linenos">27</span>               <span class="nt">&lt;pointLongitude&gt;</span>-68.211<span class="nt">&lt;/pointLongitude&gt;</span>
+<span class="linenos">28</span>           <span class="nt">&lt;/polygonPoint&gt;</span>
+<span class="linenos">29</span>           <span class="nt">&lt;polygonPoint&gt;</span>
+<span class="linenos">30</span>               <span class="nt">&lt;pointLatitude&gt;</span>41.090<span class="nt">&lt;/pointLatitude&gt;</span>
+<span class="linenos">31</span>               <span class="nt">&lt;pointLongitude&gt;</span>-69.622<span class="nt">&lt;/pointLongitude&gt;</span>
+<span class="linenos">32</span>           <span class="nt">&lt;/polygonPoint&gt;</span>
+<span class="linenos">33</span>           <span class="nt">&lt;polygonPoint&gt;</span>
+<span class="linenos">34</span>               <span class="nt">&lt;pointLatitude&gt;</span>41.991<span class="nt">&lt;/pointLatitude&gt;</span>
+<span class="linenos">35</span>               <span class="nt">&lt;pointLongitude&gt;</span>-71.032<span class="nt">&lt;/pointLongitude&gt;</span>
+<span class="linenos">36</span>           <span class="nt">&lt;/polygonPoint&gt;</span>
+<span class="linenos">37</span>       <span class="nt">&lt;/geoLocationPolygon&gt;</span>
+<span class="linenos">38</span>   <span class="nt">&lt;/spatialCoverage&gt;</span>
+<span class="linenos">39</span><span class="nt">&lt;/spatialCoverages&gt;</span>
 </pre></div>
 </div>
 </div>
