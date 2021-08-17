@@ -14,6 +14,7 @@ Example
    :linenos:
 
    <relatedIdentifiers>
-	<relatedIdentifier>https://doi.org/10.2314/GBV:1028376081</relatedIdentifier>
-	<relatedIdentifier>https://www.cliccs.uni-hamburg.de/results/hamburg-climate-futures-outlook.html</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="URL">url:https://schema.eudat.eu/application/citeproc+json/10.12345/eudat-core-example-full</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="arXiv">arXiv:0706.0001</relatedIdentifier>
    </relatedIdentifiers>
+

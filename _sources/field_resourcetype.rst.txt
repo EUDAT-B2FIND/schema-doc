@@ -6,15 +6,15 @@ The type(s) of the resource (occurrence: 0-n). Free text values allowed.
 
 **Examples**
 
-dataset; text; survey data
+Dataset; text; survey data
 
 Example
 ~~~~~~~
 .. code-block:: xml
    :linenos:
 
-  <resourceTypes>
-    <resourceType>
-     dataset
-    </resourceType>
-  </resourceTypes>
+   <resourceTypes>
+      <resourceType>Dataset</resourceType>
+      <resourceType>AstroImage</resourceType>
+      <resourceType>DataCollection</resourceType>
+   </resourceTypes>
