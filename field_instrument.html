@@ -98,15 +98,16 @@
 <li class="toctree-l1"><a class="reference internal" href="field_keywords.html">Keywords (R)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_identifier.html">Identifier (M)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_relatedidentifier.html">RelatedIdentifier (O)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="field_metadataaccess.html">MetadataAccess (R)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_creator.html">Creator (R)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_publisher.html">Publisher (M)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_contributor.html">Contributor (O)</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Instrument (O)</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Instrument (O)</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#example">Example</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="field_publicationyear.html">PublicationYear (M)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_language.html">Language (R)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_contact.html">Contact (O)</a></li>
-<li class="toctree-l1"><a class="reference internal" href="field_openaccess.html">OpenAccess (M)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_rights.html">Rights (R)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_resourcetype.html">ResourceType (O)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="field_format.html">Format (O)</a></li>
@@ -186,7 +187,15 @@
 <span id="d-instrument"></span><h1>Instrument (O)<a class="headerlink" href="#instrument-o" title="Permalink to this headline">¶</a></h1>
 <p>The technical instrument(s) used to generate, observe or measure the data (occurrence: 0-n).</p>
 <p><strong>Allowed values, examples, other constraints</strong></p>
-<p>Free text: instrument PID or name.</p>
+<p>Instrument PID and/or name.</p>
+<div class="section" id="example">
+<h2>Example<a class="headerlink" href="#example" title="Permalink to this headline">¶</a></h2>
+<div class="highlight-xml notranslate"><div class="highlight"><pre><span></span><span class="linenos">1</span><span class="nt">&lt;instruments&gt;</span>
+<span class="linenos">2</span>   <span class="nt">&lt;instrument</span> <span class="na">instrumentIdentifierType=</span><span class="s">&quot;URL&quot;</span> <span class="na">instrumentIdentifier=</span><span class="s">&quot;https://b2inst-poc2.eoschub-surfsara.surf-hosted.nl/records/e0bacfa76e3749db9c91f4f30c70290c&quot;</span><span class="nt">&gt;</span>Pilatus detector at MX station 14.1<span class="nt">&lt;/instrument&gt;</span>
+<span class="linenos">3</span><span class="nt">&lt;/instruments&gt;</span>
+</pre></div>
+</div>
+</div>
 </div>
 
 

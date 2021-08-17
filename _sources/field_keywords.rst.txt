@@ -14,8 +14,8 @@ Example
    :linenos:
 
    <keywords>
-	<keyword>Chemistry</subject>
-	<keyword>Catalysis</subject>
-	<keyword>Confinement</subject>
-	<keyword>Metathesis</subject>
+	<keyword>Chemistry</keyword>
+	<keyword>Catalysis</keyword>
+	<keyword>Confinement</keyword>
+	<keyword>Metathesis</keyword>
    </keywords>
