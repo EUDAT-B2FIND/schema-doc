@@ -6,5 +6,13 @@ The technical instrument(s) used to generate, observe or measure the data (occur
 
 **Allowed values, examples, other constraints**
 
-Free text: instrument PID or name.
+Instrument PID and/or name.
 
+Example
+~~~~~~~
+.. code-block:: xml
+   :linenos:
+
+   <instruments>
+      <instrument instrumentIdentifierType="URL" instrumentIdentifier="https://b2inst-poc2.eoschub-surfsara.surf-hosted.nl/records/e0bacfa76e3749db9c91f4f30c70290c">Pilatus detector at MX station 14.1</instrument>
+   </instruments>

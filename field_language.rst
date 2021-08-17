@@ -15,5 +15,6 @@ Example
    :linenos:
 
    <languages>
-    <language>eng</language>
+      <language>eng</language>
+      <language>ger</language>
    </languages>

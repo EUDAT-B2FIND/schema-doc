@@ -4,8 +4,8 @@
    contain the root `toctree` directive.
 
 
-B2FIND Metadata Schema
-======================
+EUDAT Core Metadata Schema
+==========================
 
 .. toctree::
    :maxdepth: 1
@@ -24,7 +24,6 @@ B2FIND Metadata Schema
    field_keywords
    field_identifier
    field_relatedidentifier
-   field_metadataaccess
    field_creator
    field_publisher
    field_contributor
@@ -32,7 +31,6 @@ B2FIND Metadata Schema
    field_publicationyear
    field_language
    field_contact
-   field_openaccess
    field_rights
    field_resourcetype
    field_format
