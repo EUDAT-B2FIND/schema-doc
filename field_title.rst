@@ -16,4 +16,4 @@ Example
    <titles>
       <title xml:lang="en">EUDAT Core metadata schema full example</title>
       <title xml:lang="en">Subtitle</title>
-  </titles>
+   </titles>

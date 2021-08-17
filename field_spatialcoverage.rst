@@ -56,5 +56,4 @@ Example
               </polygonPoint>
           </geoLocationPolygon>
       </spatialCoverage>
-  </spatialCoverages>
-
+   </spatialCoverages>

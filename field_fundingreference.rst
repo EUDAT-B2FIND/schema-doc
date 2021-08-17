@@ -13,6 +13,6 @@ Example
 .. code-block:: xml
    :linenos:
 
-<fundingReferences>
-   <fundingReference>DFG, 358283783 SFB 1333</fundingReference>
-</fundingReferences>
+   <fundingReferences>
+      <fundingReference>DFG, 358283783 SFB 1333</fundingReference>
+   </fundingReferences>
