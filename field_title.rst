@@ -14,7 +14,6 @@ Example
    :linenos:
 
    <titles>
-    <title>
-    Bees in Kakamega Forest, Western Kenya
-    </title>
-   </titles>
+      <title xml:lang="en">EUDAT Core metadata schema full example</title>
+      <title xml:lang="en">Subtitle</title>
+  </titles>
