@@ -18,12 +18,12 @@ import os
 
 # -- Project information -----------------------------------------------------
 
-project = 'B2FIND Metadata Schema'
-copyright = '2020, Claudia Martens, Anna-Lena Flügel'
-author = 'Claudia Martens, Anna-Lena Flügel'
+project = 'EUDAT Core Metadata Schema'
+copyright = '2020, EUDAT'
+author = 'EUDAT Metadata Group'
 
 # The full version, including alpha/beta/rc tags
-release = '2.0'
+release = '0.1'
 
 
 # -- General configuration ---------------------------------------------------
