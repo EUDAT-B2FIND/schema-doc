@@ -13,6 +13,4 @@ Example
 .. code-block:: xml
    :linenos:
 
-   <community>
-   	CLARIN
-   </community>
+   <community>CLARIN</community>
