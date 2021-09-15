@@ -3,26 +3,16 @@ Introduction
 
 Aim
 ^^^
-B2FIND is first and foremost an interdisciplinary seach portal for research data. Our aim is to make (meta)data records from different research areas with divergent metadata standards and formats searchable and findable in one catalogue by ingesting metadata records from a huge variety of Data Providers, Research Infrastructures or Scientific Communities.
+The EUDAT Core Metadata Schema defines and describes metadata for research output in order to transfer metadata information through different EUDAT CDI services. It originates from the need to define a common schema that allows to harmonize metadata elements used for storage, publication and discovery of digital research objects across EUDAT partners and beyond. 
 
-The metadata schema described here refers to this ingestion process: metadata elements, occurences and obligations define how and which metadata elements are integrated into B2FIND. Be aware that the metadata displayed in B2FIND is also harvested by OpenAire and potentially other metadata aggregators.
+Scope
+^^^^^
+Research data management has become an important factor of scientific practice, commonly accepting that good metadata management is crucial for making research data FAIR - findable, accessible, interoperable and reusable. Hence a lot of metadata schemas and standards exist, for specific research areas as well as such for generic use. As EUDAT offers data management services for interdisciplinary research, only a generic schema is applicable: the schema described here can be seen as a *minimum* set of metadata elements. 
 
-.. note::
-   B2FIND aims to integrate also repositories that do not use generic metadata schemas or standardised transfer protocols. In that case, if you would like to make your (meta)data searchable and findable in B2FIND please contact our team `here <https://eudat.eu/contact-support-request>`__.
-
-
-Legal Requirements
-^^^^^^^^^^^^^^^^^^
-If you want to publish your metadata in the EUDAT service B2FIND, you must consent to the following:
-
-- The data provider must agree with the licensing principles of EUDAT-B2FIND (see the `Terms of Use for EUDAT CDI <https://www.eudat.eu/eudat-cdi-aup>`__) and DKRZ (see the `Legal Notice <http://b2find.eudat.eu/legal>`__).
-- In particular, the provider must consent to the provided metadata being made publicly available and openly accessible under `CC-BY International v.4.0 <https://creativecommons.org/licenses/by/4.0/> or subsequent without any restrictions on reuse in original and derivative forms.
-- The data provider agrees to the metadata being made available for free in B2FIND and also for it to be harvested by and re-distributed to other metadata aggregators. No confidential metadata should be provided (although the described research data sets themselves may have access limitations). Copyright-protected metadata can only be published if there is a licence agreement between the data provider and EUDAT that meets the B2FIND requirements.
+While EUDAT Core is based on the `Datacite Metadata Schema <https://schema.datacite.org/>`_ 4.3 and the `OpenAire Guidelines for Data Archives <https://guidelines.openaire.eu/en/latest/data/index.html>`_, there are some specific differences due to practical needs:
+* EUDAT Core accepts other persistent identifier schemes and not only a DOI in :ref:`d:identifier`
+* in contrast to Datacite and OpenAire, in EUDAT Core only four metadata elements are mandatory: Identifier, Title, Publisher and PublicationYear
+* EUDAT Core includes additional metadata elements, namely: Discipline, Contact, Instrument and TemporalCoverage. 
 
 .. note::
-   The open access licence referred to above (CC-BY 4.0 or subsequent) only applies to the metadata records published and visible in the B2FIND portal, **not** to the underlying data collections referred to and described by the B2FIND datasets.
-
-
-Citation Disclaimer
-^^^^^^^^^^^^^^^^^^^
-Even if the metadata in B2FIND is correct to the best of our knowledge and belief please keep in mind that any citation should be created using the original sources.
+   Even though the EUDAT Core Metadata Schema is developed for transferring metadata across EUDAT services, of course it may be used by everyone to exchange metadata. For that, we strongly recommend using standardised vocabularies wherever possible. However, in order to make as much research output as possible searchable and findable, only few elements are mandatory and only few elements require specific attributes.
