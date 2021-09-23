@@ -20,7 +20,7 @@ Usage
 
 The EUDAT Core metadata schema is used to standardise and validate exchange of metadata fields and values between, from and to EUDAT storage services. This is typically done using Extensible Markup Language (XML) formatted documents. The EUDAT Core metadata schema can be used in any XML document by explicitly referring to the corresponding XML Schema Definition (XSD) file that specifies the allowed fields and values.
 
-In order to make sure your document validates with the schema, the schema location attribute has to be included in the document’s root element. The value must include the namespace and one or more (alternative) URLs of the schema publication location and a version indicator, e.g. "http://schema.eudat.eu/schema/kernel-1 http://schema.eudat.eu/meta/kernel-core-1.0/schema.xsd".
+In order to make sure your document validates with the schema, the schema location attribute has to be included in the document’s root element. The value must include the namespace and one or more (alternative) URLs of the schema publication location and a version indicator, e.g. <http://schema.eudat.eu/schema/kernel-1 http://schema.eudat.eu/meta/kernel-core-1.0/schema.xsd>.
 
 If you are using multiple schema definitions in a single document, make sure to define a unique namespace for the EUDAT Core metadata schema.
 
