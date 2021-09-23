@@ -2,7 +2,7 @@
 
 Identifier (M)
 --------------
-One or more unique strings that identifiy a single resource, ideally persistent (occurrences: 1-n). Use attributes for defining DOI, PID, URL or other types.
+A unique string that identifies the resource, ideally persistent (occurrences: 1-n). To supply alternate identifiers, repeat this property. Use attributes for defining the identifier type, e.g. "DOI", 'Handle', 'URL' or other types. For allowed values, see controlled `list of identifier types <https://gitlab.eudat.eu/eudat-metadata-schema/schema-definitions/-/blob/master/include/eudat-identifierType-v1.xsd>`_.
 
 Example
 ~~~~~~~
