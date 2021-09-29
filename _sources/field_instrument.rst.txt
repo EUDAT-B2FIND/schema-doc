@@ -2,7 +2,7 @@
 
 Instrument (O)
 ----------------
-The technical instrument(s) used to generate, observe or measure the data (occurrence: 0-n).
+The technical instrument(s) used to produce the data in the resource (occurrence: 0-n).
 
 **Allowed values, examples, other constraints**
 
@@ -14,5 +14,6 @@ Example
    :linenos:
 
    <instruments>
-      <instrument instrumentIdentifierType="URL" instrumentIdentifier="https://b2inst-poc2.eoschub-surfsara.surf-hosted.nl/records/e0bacfa76e3749db9c91f4f30c70290c">Pilatus detector at MX station 14.1</instrument>
+      <instrument>Instrument name without identifier</instrument>
+      <instrument instrumentIdentifier="10.1594/WDCC/CCSRNIES_SRES_B2" instrumentIdentifierType="DOI">Instrument name</instrument>
    </instruments>
