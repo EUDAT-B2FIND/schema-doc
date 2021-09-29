@@ -2,11 +2,11 @@
 
 Contributor (O)
 ---------------
-The institution or person responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource (occurrences: 0-n).
+The institution(s) or person(s) responsible for collecting, managing, distributing, or otherwise contributing to the development of the resource (occurrences: 0-n).
 
 **Allowed values, examples, other constraints**
 
-List of names (personal or entities).
+List of names (personal or entities). The personal name format should be: family, given.
 
 Example
 ~~~~~~~
