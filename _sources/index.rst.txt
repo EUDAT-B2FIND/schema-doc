@@ -4,8 +4,8 @@
    contain the root `toctree` directive.
 
 
-EUDAT Core Metadata Schema - DRAFT
-==================================
+EUDAT Core Metadata Schema
+==========================
 
 .. toctree::
    :maxdepth: 1
