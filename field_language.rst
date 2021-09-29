@@ -6,8 +6,7 @@ The language(s) of the resource (occurrences: 0-n).
 
 **Allowed values, examples, other constraints**
 
-Allowed values are ISO 639-1 or ISO 639-3 language codes or text.
-Examples: en; eng; English
+Allowed values should be taken from ISO 639-1 and 639-3 language codes or IETF BCP 47. Examples: 'en', 'de' or 'eng', 'deu' or 'de-AT', 'en-US'.
 
 Example
 ~~~~~~~
@@ -15,6 +14,6 @@ Example
    :linenos:
 
    <languages>
-      <language>eng</language>
-      <language>ger</language>
+      <language>en</language>
+      <language>fr</language>
    </languages>
