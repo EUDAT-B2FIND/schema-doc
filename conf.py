@@ -19,11 +19,11 @@ import os
 # -- Project information -----------------------------------------------------
 
 project = 'EUDAT Core Metadata Schema'
-copyright = '2020, EUDAT'
+copyright = '2021, EUDAT'
 author = 'EUDAT Metadata Group'
 
 # The full version, including alpha/beta/rc tags
-release = '0.1'
+release = '1.0'
 
 
 # -- General configuration ---------------------------------------------------
