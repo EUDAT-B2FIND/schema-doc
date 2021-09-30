@@ -21,5 +21,5 @@ Example
       <fundingReference>
           <funderName>Federal Science Organisation</funderName>
       </fundingReference>
-  </fundingReferences>
+   </fundingReferences>
 
