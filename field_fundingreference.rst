@@ -2,7 +2,7 @@
 
 FundingReference (O)
 --------------------
-Information about financial support (funding) for the resource(occurrences: 0-n).
+Information about financial support (funding) for the resource (occurrences: 0-n).
 
 **Allowed values, examples, other constraints**
 
