@@ -2,7 +2,7 @@
 
 Rights (R)
 ----------
-Any rights information for this resource.The property may be repeated to record complex rights characteristics (occurrences: 0-n).
+Any rights information for this resource (occurrences: 0-n). The property may be repeated to record complex rights characteristics.
 
 **Allowed values, examples, other constraints**
 
