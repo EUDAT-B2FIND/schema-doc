@@ -2,7 +2,11 @@
 
 Temporal Coverage (O)
 ---------------------
-Period of time the research data is related to (occurence: 0-n). Could be a date format or plain text.
+Period of time the research data is related to (occurence: 0-n). Could be a date format or plain text. EUDAT Core offers the following possibilities to display temporal information:
+
+* startDate
+* endDate
+* span (name of time period, e.g. Paleocene)
 
 **Allowed values, examples, other constraints**
 
