@@ -3,7 +3,7 @@ Introduction
 
 Aim
 ^^^
-The EUDAT Core Metadata Schema defines and describes metadata for research output in order to transfer metadata information through different EUDAT CDI services. It originated from the need to define a common schema that allows to harmonise metadata elements used for storage, publication and discovery of digital research objects across EUDAT partners and beyond. You can access the EUDAT Core Metadata Schema `here <https://gitlab.eudat.eu/eudat-metadata-schema/schema-definitions/-/tree/master>`_ on GitLab.
+The EUDAT Core Metadata Schema defines and describes metadata for research output in order to transfer metadata information through different EUDAT CDI services. It originated from the need to define a common schema that allows to harmonise metadata elements used for storage, publication and discovery of digital research objects across EUDAT partners and beyond. You can access the EUDAT Core Metadata Schema xsd file `here <https://gitlab.eudat.eu/eudat-metadata-schema/schema-definitions/-/tree/master>`_ on GitLab.
 
 Scope
 ^^^^^
