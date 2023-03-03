@@ -2,7 +2,7 @@
 
 Creator (R)
 -----------
-The main researchers involved working on the data, or the authors of the publication in priority order. May be a corporate/institutional or personal name (occurrence: 0-n).
+The main researcher(s) involved working on the data, or the author(s) of the publication in priority order (occurrence: 0-n). May be a corporate/institutional or personal name. To supply multiple creators, repeat this property.
 
 **Allowed values, examples, other constraints**
 
@@ -17,7 +17,7 @@ Example
    :linenos:
 
    <creators>
-    <creator>
-     <creatorName>Miller, Elizabeth</creatorName> 
-    </creator>
+      <creator>
+         <creatorName>Miller, Elizabeth</creatorName> 
+      </creator>
    </creators>

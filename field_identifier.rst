@@ -2,27 +2,11 @@
 
 Identifier (M)
 --------------
-A unique string that identifies a resource, ideally persistent (occurrence: 1). You can either provide a:
-
-* DOI: A persistent citable identifier that uniquely identifies a resource, registered as DOI.
-* PID: A persistent identifier that uniquely identifies a resource, registered at a handle server.
-* URI: An identifier that uniquely identifies a resource. It may link to the data itself or a landing page that curates the data.
-
-At least one identifier is mandatory.
+A unique string that identifies the resource, ideally persistent (occurrences: 1-n). To supply alternate identifiers, repeat this property. Use attributes for defining the identifier type, e.g. "DOI", 'Handle', 'URL' or other types. 
 
 **Allowed values, examples, other constraints**
 
-*Controlled list values* 
-    * ARK
-    * DOI
-    * Handle
-    * PURL
-    * URN
-    * URL
-    * other, community-specific identifier type
-
-.. note::
-   Unlike DataCite, B2FIND allows for DOIs and other types of identifiers.
+For allowed type values, see controlled `list of limited identifier types <https://gitlab.eudat.eu/eudat-metadata-schema/schema-definitions/-/blob/master/include/eudat-limitedIdentifierType-v1.xsd>`_.
 
 Example
 ~~~~~~~
@@ -30,10 +14,7 @@ Example
    :linenos:
 
    <identifiers>
-  	<identifier identiferType="DOI">
-  	 10.1594/WDCC/CCSRNIES_SRES_B2
-  	</identifier>
-  	<identifier identifierType="ARK">
-  	 2013A&amp;A...558A.149B
-  	</identifier>
+      <identifier identifierType="DOI">10.1594/WDCC/CCSRNIES_SRES_B2</identifier>
+      <identifier identifierType="ARK">2013A&amp;A...558A.149B</identifier>
+      <identifier identifierType="URL">https://b2share.eudat.eu/records/bb8964ff899c4711a0e8875b87ab2800</identifier>
    </identifiers>

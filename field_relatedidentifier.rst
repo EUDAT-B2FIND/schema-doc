@@ -1,18 +1,20 @@
 .. _d:relatedidentifier:
 
-Related Identifier (O)
-----------------------
-Identifiers of related resources (occurrence: 0-n).
+RelatedIdentifier (O)
+---------------------
+Identifier(s) of related resources (occurrence: 0-n).
 
 **Allowed values, examples, other constraints**
 
-Should be a resolvable URI.
+For allowed type values, see controlled `list of identifier types <https://gitlab.eudat.eu/eudat-metadata-schema/schema-definitions/-/blob/master/include/eudat-identifierType-v1.xsd>`_.
 
 Example
 ~~~~~~~
 .. code-block:: xml
    :linenos:
 
-    <relatedIdentifier>
-     https://doi.org/10.1029/96JB03945
-    </relatedIdentifier>
+   <relatedIdentifiers>
+      <relatedIdentifier relatedIdentifierType="URL">url:https://schema.eudat.eu/application/citeproc+json/10.12345/eudat-core-example-full</relatedIdentifier>
+      <relatedIdentifier relatedIdentifierType="arXiv">arXiv:0706.0001</relatedIdentifier>
+   </relatedIdentifiers>
+

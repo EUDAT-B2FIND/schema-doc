@@ -1,8 +1,8 @@
 .. _d:keywords:
 
 Keywords (R)
---------------
-Subject, keyword, classification code, or key phrase describing the resource (occurrences: 0-n). Try to use keyword thesauri from community-specific vocabularies.
+------------
+Subject(s), keyword(s), classification code(s), or key phrase(s) describing the resource (occurrences: 0-n). Try to use keyword thesauri from community-specific vocabularies.
 
 **Allowed values, examples, other constraints**
 
@@ -14,8 +14,8 @@ Example
    :linenos:
 
    <keywords>
-	<keyword>Chemistry</subject>
-	<keyword>Catalysis</subject>
-	<keyword>Confinement</subject>
-	<keyword>Metathesis</subject>
+	<keyword>Chemistry</keyword>
+	<keyword>Catalysis</keyword>
+	<keyword>Confinement</keyword>
+	<keyword>Metathesis</keyword>
    </keywords>

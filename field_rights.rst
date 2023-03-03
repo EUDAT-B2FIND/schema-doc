@@ -2,7 +2,7 @@
 
 Rights (R)
 ----------
-Any rights information for this resource (occurrences: 0-n).
+Any rights information for this resource (occurrences: 0-n). The property may be repeated to record complex rights characteristics.
 
 **Allowed values, examples, other constraints**
 
@@ -20,7 +20,7 @@ Example
    :linenos:
 
    <rightsList>
-    <rights>
-     Creative Commons Attribution 3.0 Germany License
-    </rights>
+      <rights>Creative Commons Zero 1.0</rights>
+      <rights>info:eu-repo/semantics/openAccess</rights>
    </rightsList>
+

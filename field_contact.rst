@@ -6,7 +6,7 @@ A reference to contact information for this resource (occurrences: 0-n).
 
 **Allowed values, examples, other constraints**
 
-List of names or institutions.
+List of names or institutions. Could also be an e-mail address, URL of contact form etc.
 
 Example
 ~~~~~~~
@@ -14,7 +14,7 @@ Example
    :linenos:
 
    <contacts>
-  	<contact>
-  	 Research Data Office (University of Groningen)
-  	</contact>
+      <contact>example@community.org</contact>
+      <contact>https://community.org/contact</contact>
+      <contact>Research Data Office (University of Groningen)</contact>
    </contacts>
