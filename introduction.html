@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html class="writer-html5" lang="en" >
 <head>
-  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.18.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Introduction &mdash; EUDAT Core Metadata Schema 1.0 documentation</title>
@@ -14,7 +14,9 @@
         <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
         <script src="_static/jquery.js"></script>
         <script src="_static/underscore.js"></script>
+        <script src="_static/_sphinx_javascript_frameworks_compat.js"></script>
         <script src="_static/doctools.js"></script>
+        <script src="_static/sphinx_highlight.js"></script>
     <script src="_static/js/theme.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -27,11 +29,15 @@
     <nav data-toggle="wy-nav-shift" class="wy-nav-side">
       <div class="wy-side-scroll">
         <div class="wy-side-nav-search" >
-            <a href="index.html" class="icon icon-home"> EUDAT Core Metadata Schema
+
+          
+          
+          <a href="index.html" class="icon icon-home">
+            EUDAT Core Metadata Schema
           </a>
 <div role="search">
   <form id="rtd-search-form" class="wy-form" action="search.html" method="get">
-    <input type="text" name="q" placeholder="Search docs" />
+    <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" />
     <input type="hidden" name="check_keywords" value="yes" />
     <input type="hidden" name="area" value="default" />
   </form>
@@ -84,8 +90,8 @@
         <div class="rst-content">
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
-      <li><a href="index.html" class="icon icon-home"></a> &raquo;</li>
-      <li>Introduction</li>
+      <li><a href="index.html" class="icon icon-home" aria-label="Home"></a></li>
+      <li class="breadcrumb-item active">Introduction</li>
       <li class="wy-breadcrumbs-aside">
             <a href="_sources/introduction.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -96,13 +102,13 @@
            <div itemprop="articleBody">
              
   <section id="introduction">
-<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline"></a></h1>
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this heading"></a></h1>
 <section id="aim">
-<h2>Aim<a class="headerlink" href="#aim" title="Permalink to this headline"></a></h2>
+<h2>Aim<a class="headerlink" href="#aim" title="Permalink to this heading"></a></h2>
 <p>The EUDAT Core Metadata Schema defines and describes metadata for research output in order to transfer metadata information through different EUDAT CDI services. It originated from the need to define a common schema that allows to harmonise metadata elements used for storage, publication and discovery of digital research objects across EUDAT partners and beyond. You can access the EUDAT Core Metadata Schema XSD file <a class="reference external" href="https://gitlab.eudat.eu/eudat-metadata-schema/schema-definitions/-/tree/master">here</a> on GitLab.</p>
 </section>
 <section id="scope">
-<h2>Scope<a class="headerlink" href="#scope" title="Permalink to this headline"></a></h2>
+<h2>Scope<a class="headerlink" href="#scope" title="Permalink to this heading"></a></h2>
 <p>Research data management has become an important factor of scientific practice, commonly accepting that good metadata management is crucial for making research data FAIR - findable, accessible, interoperable and reusable. Hence a lot of metadata schemas and standards exist, for specific research areas as well as for generic use. As EUDAT offers data management services for interdisciplinary research, only a generic schema is applicable. The EUDAT Core metadata elements described here can be seen as a <em>minimum</em> set of metadata elements being transferred between EUDAT services.</p>
 <p>While EUDAT Core is based on the <a class="reference external" href="https://schema.datacite.org/">DataCite Metadata Schema</a> 4.4 and the <a class="reference external" href="https://guidelines.openaire.eu/en/latest/data/index.html">OpenAire Guidelines for Data Archives</a> to ensure interoperability with these important standards, there are some specific differences due to practical needs:</p>
 <ul class="simple">
@@ -112,7 +118,7 @@
 </ul>
 </section>
 <section id="usage">
-<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this headline"></a></h2>
+<h2>Usage<a class="headerlink" href="#usage" title="Permalink to this heading"></a></h2>
 <p>The EUDAT Core metadata schema is used to standardise and validate exchange of metadata fields and values between, from and to EUDAT storage services. This is typically done using Extensible Markup Language (XML) formatted documents. The EUDAT Core metadata schema can be used in any XML document by explicitly referring to the corresponding XML Schema Definition (XSD) file that specifies the allowed fields and values.</p>
 <p>In order to make sure your document validates with the schema, the schema location attribute has to be included in the document’s root element. The value must include the namespace and one or more (alternative) URLs of the schema publication location and a version indicator, e.g. &lt;<a class="reference external" href="http://schema.eudat.eu/schema/kernel-1">http://schema.eudat.eu/schema/kernel-1</a> <a class="reference external" href="http://schema.eudat.eu/meta/kernel-core-1.0/schema.xsd">http://schema.eudat.eu/meta/kernel-core-1.0/schema.xsd</a>&gt;.</p>
 <p>If you are using multiple schema definitions in a single document, make sure to define a unique namespace for the EUDAT Core metadata schema.</p>
